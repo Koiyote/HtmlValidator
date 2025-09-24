@@ -1,20 +1,35 @@
 #stack to check against
 class Stack:
 	def __init__main:
-		bucket[]
+		self.bucket = []
 	
-	def push(value):
-		bucket[len(bucket)-1)] = value
+	def push(self, value):
+		self.bucket.append(value)
 		
-	def pop:
-		return bucket[len(bucket)-1]
+	def pop(self):
+		if self.bucket:
+			return self.bucket.pop()
+		return none
 		
-	def peek:
-		return bucket[len(bucket)-1]
+	def peek(self):
+		if self.bucket:
+			return self.bucket[-1]
+		return none
 		
 #input source
 html = "<html><body></html>"		
     #after first < keep going till you reach >
+ accumulator = 0
+    for iterator in html:
+        if iterator = '<':
+    		if iterator = '>':
+    			slice = html[0, accumulator]
+    			Stack.bucket.append(slice)
+    	else: 
+    	     accumulator++
+    	     if iterator++ = '<':
+    	     	slice = html[0, accumulator]
+    	     	Stack.bucket.append(slice)
     #add that tag to the stack with push()
 #iterate through the stack
      #pop each element off the stack and check if the 
