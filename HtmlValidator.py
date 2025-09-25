@@ -2,9 +2,11 @@
 class Stack:
 	def __init__main:
 		self.bucket = []
+		size.sz_stack = 0
 	
 	def push(self, value):
 		self.bucket.append(value)
+		
 		
 	def pop(self):
 		if self.bucket:
@@ -16,26 +18,31 @@ class Stack:
 			return self.bucket[-1]
 		return none
 		
+	def stack_sz:
+		self.sz_stack++
+		
+	def get_szstack:
+		return self.sz_stack
+		
+		
 #input source
 html = "<html><body></html>"		
     #after first < keep going till you reach >
- accumulator = 0
+ accumulator = ''"
     for iterator in html:
         if iterator = '<':
-    		if iterator = '>':
-    			slice = html[0, accumulator]
-    			Stack.bucket.append(slice)
-    	else: 
-    	     accumulator++
-    	     if iterator++ = '<':
-    	     	slice = html[0, accumulator]
-    	     	Stack.bucket.append(slice)
-    #add that tag to the stack with push()
-#iterate through the stack
-     #pop each element off the stack and check if the 
+        	while iterator != '>'
+    			accumulator += iterator
+    	if iterator = '>':
+    		Bucket.append(accumulator)
+ 
+#iterate through the stack######
+for x in range(Stack.get_szstack, 0, -1):
+     temp = Stack.pop()
+     Dictionary.insert(temp)
      
 class Dictionary:
-	def __init__(self):
+	def __init__main(self):
 		self.Keys[110]
 		self.Values[110]
 		
@@ -51,6 +58,9 @@ class Dictionary:
 		temp + 1
 		Values[position] = temp
 #if comparisons to see what is not valid html
-
+    def checkForValidity(self):
+    	for x in range(110):
+    		
+	
 
 
